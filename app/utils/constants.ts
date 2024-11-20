@@ -45,6 +45,7 @@ const staticModels: ModelInfo[] = [
   { name: 'mistral-small-latest', label: 'Mistral Small', provider: 'Mistral' },
   { name: 'codestral-latest', label: 'Codestral', provider: 'Mistral' },
   { name: 'mistral-large-latest', label: 'Mistral Large Latest', provider: 'Mistral' },
+  { name: 'qwen2.5-coder-extra-ctx:7b', label: 'qwen2.5-coder-extra-ctx:7b', provider: 'Qwen' },
 ];
 
 export let MODEL_LIST: ModelInfo[] = [...staticModels];
